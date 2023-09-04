@@ -1,0 +1,76 @@
+body{
+    background: #1c1c1c;
+    color: white;
+}
+.mainContainer{
+   /* border: 3px solid green; */
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#scoreMainContainer {
+    width: 100%; 
+}
+
+.scoreBoard {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px rgb(0, 0, 0);
+  transition: all ease-in;
+  cursor: pointer;
+}
+
+.scoreBoard:hover{
+    transform: scale(1.03) ;
+}
+
+
+.scoreBoard p{
+    /* border: 2px solid green; */
+    width: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+} 
+
+input{
+    padding: .5rem .8rem;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 3px 3px 7px black , inset 4px 4px 10px black;
+    background-color: transparent;
+    color: white;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    background-color: rgb(168, 140, 140);
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: 8px;
+    box-shadow: 3px 3px 7px rgb(68, 66, 66);
+    transition : all .3s ease-in;
+    cursor: pointer;
+
+}
+
+button:hover{
+    transform: scale(1.01) ;
+}
+
